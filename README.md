@@ -8,7 +8,7 @@ An enterprise-grade n8n automation architecture that provides automated CRM data
 
 CRM data decay silently ruins financial forecasts, skews marketing attribution, and breaks automated sales outreach. This system acts as an autonomous data janitor and infrastructure guard:
 
-- **Proactive Data Hygiene:** Automatically audits active HubSpot pipeline deals, uses zero-cost LLM inference (Groq/Llama 3) to normalize unstructured company/deal names into clean Title Case, and updates the CRM without human intervention.
+- **Proactive Data Hygiene:** Automatically audits active HubSpot pipeline deals, uses zero-cost LLM inference (Groq/openai/gpt-oss-120b) to normalize unstructured company/deal names into clean Title Case, and updates the CRM without human intervention.
 - **SLA & Forecast Protection:** Automatically scans for expired close dates and dispatches direct Slack warnings to reps, ensuring quarterly revenue forecasts remain accurate.
 - **Granular Batch Resilience:** Features native error branching on database write operations so that a single corrupted record failure never crashes the broader batch sync.
 - **Reactive DevOps Auto-Healer:** A completely isolated global error trigger that intercepts catastrophic API or authentication failures, uses Google Gemini to translate raw stack traces into plain-English root causes, and routes alerts by severity tier.
