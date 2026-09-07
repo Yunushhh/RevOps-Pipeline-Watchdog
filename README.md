@@ -2,7 +2,7 @@
 
 An enterprise-grade n8n automation architecture that provides automated CRM data hygiene, proactive sales coaching alerts, and a self-healing reactive DevOps catch-net.
 
-![Scenario Architecture](./architecture.png)
+![Scenario Architecture](./RevOps architecture.png)
 
 ## 📌 Business Value
 
